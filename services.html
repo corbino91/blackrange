@@ -18,37 +18,13 @@
     <![endif]-->       
     <script src="js/jquery.js"></script>
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
 
     <script type="text/javascript">
     jQuery(document).ready(function($){
     'use strict';
         jQuery('body').backstretch([
-            "http://placehold.it/800x600",
-            "http://placehold.it/800x600",
-            "http://placehold.it/800x600"
+            "images/bg/gila.jpg"
         ], {duration: 5000, fade: 500});
-
-        $("#mapwrapper").gMap({ controls: false,
-            scrollwheel: false,
-            markers: [{     
-                latitude:40.7566,
-                longitude: -73.9863,
-            icon: { image: "images/marker.png",
-                iconsize: [44,44],
-                iconanchor: [12,46],
-                infowindowanchor: [12, 0] } }],
-            icon: { 
-                image: "images/marker.png", 
-                iconsize: [26, 46],
-                iconanchor: [12, 46],
-                infowindowanchor: [12, 0] },
-            latitude:40.7566,
-            longitude: -73.9863,
-            zoom: 14 });
     });
     </script>
 </head><!--/head-->
@@ -105,12 +81,30 @@
     <div id="content-wrapper">
         <section id="services" class="white">
             <div class="container">
-            <div class="gap"></div>             
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="service-block">
                             <div class="pull-left bounce-in">
-                                <i class="fa fa-windows fa fa-md"></i>
+                                <!--<i class="fa fa-windows fa fa-md"></i>-->
+                                <img class="fa fa-md" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABA
+                                CAYAAACqaXHeAAAEQElEQVR4Xu2b7bVNQQyGczugAnRAB1SADqgAFaACOkAFdIAK6IAO6ID13HViZWXNzJ7sPZm
+                                57r3z5/w4e88kbz7eJHPOmVzxdXbF9ZdrACZ7wBMRuS0iP0Xk/eSzi8fN8gAUfyMiN4wUX0TksYj8XgnEDABQ+o
+                                dTXnV+KyIvLjsAWP9dQ8k7p5BYgsMMD3glIi8b2j0QEcJhyboGYALs90Xkc+Wc7yJyb4IM1SNmeABJ8JeRAAr8c
+                                FGocBYAlgWgPRLfUvpTg8wAAP5/7nzwtYiQHJevbABs/OP6VIG6KII+rUYgG4BvInJXREh20J0PBUBYRoGAnwmA
+                                5X8yPSCUiqKnK/uCLABwdawPA/hyF0okNOxaBkIWAKokcY/1bcYv9QZ8T4jgJVNXBgCPROTjSYtaoiMv4CF2AQJ
+                                gAdq0NRoAa10yPADUFtQIRdpFQsQTpq3RACjn91pTWcIqzKCEnDBljQTAcj49Pslva9X6hGkd4kgALOdHGpySF2
+                                yFzxaw3d+PAqDE+b1ClHIBIXSzd4Mjz40AoMX5PbKVGIH3Rsi2ef6IQ1qcvynA6YE/q9jgKAA9nN8DggegN4n27
+                                N185ggAEc5vCeFDYOq8wAJALKNUbzka5fwaCH5eEGmTeffrkbbaAoDyxDMWsYvqjBGWvcnZw/klAHwdEL0nsKED
+                                dSoY3eW0D4EaCAhvLbOX8y0I9AvkELu0be6NbZ879D0AsIBU9yvlgBoI2rFhNa3howKrILW7gmj81wDwCle9o5Y
+                                EW9dZujnCki941ofNlgX9eGzr+ZHfczYzyfOQrgHAVRbTG780tnS2F0lYdq+W5SLM1OsBnF30gkgO0Lke1taLjo
+                                iwFoDSVEi/j+zZAqArD3gaJDGV3FmV18mOJjAOYcYfXbUuMNoKewDCTGABoCnR+/tbZoSN0vTndqxFCDDhZe2d8
+                                QPCM8cE0dkgMnRl+5qFIu7m99BM3jv8qMng6XAvs0S98Pz5IwDgLdQDeMOR/t23w1PHYkcAAEDbDO2d4pTyAbOA
+                                KXeHRwEABM3oe6+6S0XRXjDDYTACANvN7WljSyXxfwUAqNvOMHL17X87oBac9ruhER6A0LZ0jnB5yf33hlLY/Y+
+                                ygD/QXnz2UFmt35jm/qMBYD9tk3uorNRvRAuhXVa3L40KAd3TUlpLGUuf+u505TM8gD3VsrXe3o7RlyqfBYCNbd
+                                8nlIYte3uJw+6fBQD72uxuKc1zfoQxhijsNxmdA+z+dGq4uyZEn/SWK5/pAextEyLK2gmTny+kWLdn00wP4PxSm
+                                Vv62UyPrCnPZANgByeqQE+RlKJsadNsAHytv6dZSgUjGwD/u0Adh/NJydt9g5OFQjYArT9LXHoW8PWAN2JPv5Bl
+                                +H/7rvSAKwFA698iS0tgdYFsD+Cc0i3QlSmEFGjY4OFp0ssd/oX412h2KZyewEYcMCMERsiZtsdfoK4EUAXNX9I
+                                AAAAASUVORK5CYII=" />
                             </div>
                             <div class="media-body fade-up">
                                 <h3 class="media-heading">Bow Elk Hunts</h3>
@@ -121,7 +115,35 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="service-block">
                             <div class="pull-left bounce-in">
-                                <i class="fa fa-android fa fa-md"></i>
+                                <!--<i class="fa fa-android fa fa-md"></i>-->
+                                <img class="fa fa-md" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE
+                                9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR
+                                3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDQ4
+                                IDQ4IiBoZWlnaHQ9IjQ4cHgiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ4IDQ4IiB3aWR0aD0iNDhweCI
+                                geG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bG
+                                luaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGcgaWQ9IkxheWVyXzMiPjxnPjxjaXJjbGUgY3g9I
+                                jIzLjkyNiIgY3k9IjI0LjAwMSIgZmlsbD0iIzI0MUYyMCIgcj0iMy42NzkiLz48cG9seWdvbiBmaWxsPSIjMjQx
+                                RjIwIiBwb2ludHM9IjQzLjMyOCwyMi4xOTggNDIuMjMsMjIuMTk4IDM4LjUyMSwyMi4xOTggMzYuODMyLDIyLjE
+                                5OCAzMy4xMjIsMjIuMTk4IDMzLjEyMiwyNS44MDEgICAgIDM3LjM0LDI1LjgwMSAzOC41MjEsMjUuODAxIDQyLj
+                                IzLDI1LjgwMSA0My40NzMsMjUuODAxIDQ3Ljg0LDI1LjgwMSA0Ny44NCwyMi4xOTggICAiLz48cGF0aCBkPSJNM
+                                jcuNjA0LDM4LjIyM3YzLjc4N2M3LjIwMy0xLjQ2NSwxMi44NzItNy4xMjUsMTQuMzM2LTE0LjMzaC0zLjc4NyAg
+                                ICBDMzYuODIxLDMyLjg0NCwzMi43NjUsMzYuODg5LDI3LjYwNCwzOC4yMjN6IiBmaWxsPSIjMjQxRjIwIi8+PHB
+                                vbHlnb24gZmlsbD0iIzI0MUYyMCIgcG9pbnRzPSIyMi4wODUsMzcuMDMzIDIyLjA4NSwzOC41OSAyMi4wODUsND
+                                IuMzA1IDIyLjA4NSw0NC4wMDYgMjIuMDg1LDQ3LjkxNiAyNS42ODksNDcuOTE2ICAgICAyNS42ODksNDQuMjM2I
+                                DI1LjY4OSw0Mi4zMDcgMjUuNjg5LDM4LjYwNCAyNS42ODksMzYuODc5IDI1LjY4OSwzMy4yMDEgMjIuMDg1LDMz
+                                LjIwMSAgICIvPjxwYXRoIGQ9Ik05LjcwNywyNy42OEg1LjkxMmMxLjQ2NCw3LjIwMSw3LjEyOCwxMi44NzUsMTQ
+                                uMzMzLDE0LjMzOHYtMy43OTMgICAgQzE1LjA4NSwzNi44OTMsMTEuMDM5LDMyLjgzOCw5LjcwNywyNy42OHoiIG
+                                ZpbGw9IiMyNDFGMjAiLz48cG9seWdvbiBmaWxsPSIjMjQxRjIwIiBwb2ludHM9IjEwLjk3MSwyNS44MDEgMTQuO
+                                Dc4LDI1LjgwMSAxNC44NzgsMjIuMTk4IDEwLjU1LDIyLjE5OCA5LjMyOSwyMi4xOTggNS42MTksMjIuMTk4IDQu
+                                NDkzLDIyLjE5OCAgICAgMC4xNiwyMi4xOTggMC4xNiwyNS44MDEgMy43NjgsMjUuODAxIDUuNjE5LDI1LjgwMSA
+                                5LjMyOSwyNS44MDEgICAiLz48cGF0aCBkPSJNMjAuMjQ2LDkuNzg0VjUuOTg5QzEzLjA0Miw3LjQ1Miw3LjM3Ni
+                                wxMy4xMTcsNS45MSwyMC4zMjJoMy43ODcgICAgQzExLjAyOCwxNS4xNTksMTUuMDg1LDExLjExNSwyMC4yNDYsO
+                                S43ODR6IiBmaWxsPSIjMjQxRjIwIi8+PHBvbHlnb24gZmlsbD0iIzI0MUYyMCIgcG9pbnRzPSIyNS43MjYsMTMu
+                                MTUzIDI1LjcyNiw5LjQwNSAyNS43MjYsNS42OTUgMjUuNzI2LDQuNTY4IDI1LjcyNiwwLjA4MyAyMi4xMjQsMC4
+                                wODMgMjIuMTI0LDMuOTkzICAgICAyMi4xMjQsNS42OTUgMjIuMTI0LDkuNDA1IDIyLjEyNCwxMS42NiAyMi4xMj
+                                QsMTQuODAyIDI1LjcyNiwxNC44MDIgICAiLz48cGF0aCBkPSJNMzguMTUyLDIwLjMyMmgzLjc4N2MtMS40NjItN
+                                y4yMDUtNy4xMzMtMTIuODctMTQuMzM2LTE0LjMzM3YzLjc5NSAgICBDMzIuNzY1LDExLjExNSwzNi44MjEsMTUu
+                                MTU5LDM4LjE1MiwyMC4zMjJ6IiBmaWxsPSIjMjQxRjIwIi8+PC9nPjwvZz48L3N2Zz4=" />
                             </div>
                             <div class="media-body fade-up">
                                 <h3 class="media-heading">Rifle Elk Hunts</h3>
@@ -132,7 +154,31 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="service-block">
                             <div class="pull-left bounce-in">
-                                <i class="fa fa-apple fa fa-md"></i>
+                                <!--<i class="fa fa-apple fa fa-md"></i>-->
+                                <img class="fa fa-md" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdm
+                                cgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjQgNjQ7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9I
+                                jAgMCA2NCA2NCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3Zn
+                                IiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGcgaWQ9IkxheWVyXzIiPjxnPjx
+                                wYXRoIGQ9Ik01OS4yLDUzLjVMNDUuNyw0MGwwLjktMC45aDIuN2MwLjYsMCwxLjEtMC41LDEuMS0xLjFzLTAuNS
+                                0xLjEtMS4xLTEuMWgtMi43TDM0LjIsMjQuNEwxNC4xLDQuNGwxLTEgICAgYzAuNC0wLjQsMC40LTEuMSwwLTEuN
+                                mMtMC40LTAuNC0xLjEtMC40LTEuNiwwbC0xLDFMMTAsMC4zYy0wLjQtMC40LTEuMS0wLjQtMS42LDBMNC44LDRj
+                                LTAuNCwwLjQtMC40LDEuMSwwLDEuNmwyMy4zLDIzLjMgICAgbC0wLjMsMC4zYy0wLjQsMC40LTAuNiwxLTAuNiw
+                                xLjZjMCwwLjYsMC4yLDEuMSwwLjYsMS42bDcuNiw3LjZsLTEuMywxLjNjLTAuNiwwLjYtMSwxLjUtMSwyLjNjMC
+                                wwLjksMC4zLDEuNywxLDIuM2wyLjEsMi4xICAgIGMwLjIsMC4yLDAuNSwwLjMsMC44LDAuM2MwLjMsMCwwLjYtM
+                                C4xLDAuOC0wLjNsMC43LTAuN2w3LjksMTMuOWMwLDAuMSwwLjEsMC4yLDAuMiwwLjJsMi40LDIuNGMwLjIsMC4y
+                                LDAuNSwwLjMsMC44LDAuMyAgICBjMC4zLDAsMC42LTAuMSwwLjgtMC4zbDguNy04LjdDNTkuNiw1NC42LDU5LjY
+                                sNTMuOSw1OS4yLDUzLjV6IE05LjMsMi43bDIyLjYsMjIuNmwtMi4xLDIuMUw3LjIsNC44TDkuMywyLjd6IE0zMy
+                                40LDI2LjhMNDQuNiwzOCAgICBsLTEuMiwxLjJsLTIuNywyLjdsLTIuOS0yLjlsLTguNC04LjRMMzMuNCwyNi44e
+                                iBNMzUuNyw0NC4zYy0wLjItMC4yLTAuMy0wLjUtMC4zLTAuOHMwLjEtMC42LDAuMy0wLjhjMCwwLDAsMCwwLDBs
+                                MS4zLTEuMyAgICBsMi4xLDIuMUwzOCw0NC42bC0xLDFMMzUuNyw0NC4zeiBNNDkuOCw2MS4zbC0xLjUtMS41bC0
+                                4LjEtMTQuM2w0LTRsMTIuNywxMi43TDQ5LjgsNjEuM3oiLz48L2c+PC9nPjxnIGlkPSJMYXllcl8zIi8+PGcgaW
+                                Q9IkxheWVyXzQiLz48ZyBpZD0iTGF5ZXJfNSIvPjxnIGlkPSJMYXllcl82Ii8+PGcgaWQ9IkxheWVyXzciLz48Z
+                                yBpZD0iTGF5ZXJfOCIvPjxnIGlkPSJMYXllcl85Ii8+PGcgaWQ9IkxheWVyXzEwIi8+PGcgaWQ9IkxheWVyXzEx
+                                Ii8+PGcgaWQ9IkxheWVyXzEyIi8+PGcgaWQ9IkxheWVyXzEzIi8+PGcgaWQ9IkxheWVyXzE1Ii8+PGcgaWQ9Ikx
+                                heWVyXzE2Ii8+PGcgaWQ9IkxheWVyXzE3Ii8+PGcgaWQ9IkxheWVyXzE4Ii8+PGcgaWQ9IkxheWVyXzE5Ii8+PG
+                                cgaWQ9IkxheWVyXzIwIi8+PGcgaWQ9IkxheWVyXzIxIi8+PGcgaWQ9IkxheWVyXzIyIi8+PGcgaWQ9IkxheWVyX
+                                zIzIi8+PGcgaWQ9IkxheWVyXzI0Ii8+PGcgaWQ9IkxheWVyXzI1Ii8+PGcgaWQ9IkxheWVyXzI2Ii8+PGcgaWQ9
+                                IkxheWVyXzI3Ii8+PC9zdmc+" />
                             </div>
                             <div class="media-body fade-up">
                                 <h3 class="media-heading">Muzzleloader Elk Hunts</h3>
@@ -141,7 +187,6 @@
                         </div>
                     </div><!--/.col-md-4-->
                 </div><!--/.row-->
-                <div class="gap"></div>
             </div>
         </section>
     </div>

@@ -18,37 +18,13 @@
     <![endif]-->       
     <script src="js/jquery.js"></script>
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
 
     <script type="text/javascript">
     jQuery(document).ready(function($){
     'use strict';
         jQuery('body').backstretch([
-            "http://placehold.it/800x600",
-            "http://placehold.it/800x600",
-            "http://placehold.it/800x600"
+            "images/bg/gila.jpg"
         ], {duration: 5000, fade: 500});
-
-        $("#mapwrapper").gMap({ controls: false,
-            scrollwheel: false,
-            markers: [{     
-                latitude:40.7566,
-                longitude: -73.9863,
-            icon: { image: "images/marker.png",
-                iconsize: [44,44],
-                iconanchor: [12,46],
-                infowindowanchor: [12, 0] } }],
-            icon: { 
-                image: "images/marker.png", 
-                iconsize: [26, 46],
-                iconanchor: [12, 46],
-                infowindowanchor: [12, 0] },
-            latitude:40.7566,
-            longitude: -73.9863,
-            zoom: 14 });
     });
     </script>
 </head><!--/head-->
@@ -107,12 +83,20 @@
             <div class="container">
                     <ul class="portfolio-filter fade-down center">
                         <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
+                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".2012">2012</a></li>
                         <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".2018">2018</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".html">2017</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".wordpress">2016</a></li>
                     </ul><!--/#portfolio-filter-->
-
+                
                     <ul class="portfolio-items col-3 isotope fade-up">
+                        <li class="portfolio-item joomla 2012 isotope-item">
+                            <div class="item-inner">
+                                <img src="images/portfolio/2012/bow1.jpg" alt="">
+                                <h5>Successful bow hunt 2012</h5>
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/2018/bow2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </li><!--/.portfolio-item-->
                         <li class="portfolio-item apps 2018 isotope-item">
                             <div class="item-inner">
                                 <img src="images/portfolio/2018/bow1.jpg" alt="">
@@ -128,69 +112,6 @@
                                 <h5>Successful bow hunt 2018</h5>
                                 <div class="overlay">
                                     <a class="preview btn btn-outlined btn-primary" href="images/portfolio/2018/bow2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>              
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item 2018 wordpress isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>        
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla wordpress apps isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
-                                </div>    
-                            </div>       
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>           
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla wordpress apps isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
-                                </div>           
-                            </div>           
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
-                                </div>    
-                            </div>       
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress html isotope-item">
-                            <div class="item-inner">
-                                <img src="http://placehold.it/800x600" alt="">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="http://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>           
                                 </div>           
                             </div>           
                         </li><!--/.portfolio-item-->
